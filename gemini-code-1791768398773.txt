@@ -1,0 +1,16 @@
+THATVOICE/
+├── index.html          # Homepage
+├── about.html          # About Us page
+├── programmes.html     # Programmes page
+├── impact.html         # Our Impact page
+├── get-involved.html   # Get Involved forms & options page
+├── resources.html      # Resource Library page
+├── news.html           # News & Events page
+├── contact.html        # Contact Us page
+├── 404.html            # Custom page-not-found error page
+├── css/
+│   └── style.css       # Main stylesheet for all pages
+├── js/
+│   └── script.js       # Interactive navigation and form scripts
+├── robots.txt          # Search engine indexing rules
+└── sitemap.xml         # Basic sitemap for search engines

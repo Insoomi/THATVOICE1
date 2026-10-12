@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — THATVOICE</title>
+  <meta name="description" content="Get in touch with THATVOICE for partnerships, inquiries, and youth advocacy support in Northern Uganda.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">THAT<span>VOICE</span></a>
+      <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programmes.html">Our Programmes</a></li>
+        <li><a href="impact.html">Our Impact</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="news.html">News & Events</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="get-involved.html" class="nav-cta">Partner With Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>We would love to hear from you. Send us a message or inquiry.</p>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <section>
+    <div class="container" style="max-width: 800px;">
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-bottom: 50px;">
+        <div style="background: var(--light-grey); padding: 25px; border-radius: 8px;">
+          <h3 style="color: var(--navy); margin-bottom: 10px;">Location</h3>
+          <p style="color: var(--text-muted);">Kitgum, Northern Uganda<br>(Exact office address to be confirmed)</p>
+        </div>
+        <div style="background: var(--light-grey); padding: 25px; border-radius: 8px;">
+          <h3 style="color: var(--navy); margin-bottom: 10px;">Official Email</h3>
+          <p style="color: var(--text-muted);">info@thatvoice.org<br>(Placeholder email address)</p>
+        </div>
+      </div>
+
+      <div class="section-header" style="text-align: left;">
+        <h2>Send Us a Message</h2>
+      </div>
+
+      <form id="contactForm" style="background: var(--light-grey); padding: 40px; border-radius: 8px;">
+        <div class="form-group">
+          <label for="cName">Full Name *</label>
+          <input type="text" id="cName" class="form-control" required placeholder="Enter your full name">
+        </div>
+
+        <div class="form-group">
+          <label for="cEmail">Email Address *</label>
+          <input type="email" id="cEmail" class="form-control" required placeholder="Enter your email address">
+        </div>
+
+        <div class="form-group">
+          <label for="cSubject">Subject *</label>
+          <input type="text" id="cSubject" class="form-control" required placeholder="What is your message about?">
+        </div>
+
+        <div class="form-group">
+          <label for="cMessage">Message *</label>
+          <textarea id="cMessage" class="form-control" rows="5" required placeholder="Write your message here..."></textarea>
+        </div>
+
+        <div class="form-group" style="display: flex; align-items: center; gap: 10px;">
+          <input type="checkbox" id="cConsent" required style="width: 18px; height: 18px;">
+          <label for="cConsent" style="margin-bottom: 0; font-size: 0.9rem;">I consent to THATVOICE processing my message in accordance with their privacy policy.</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="margin-top: 15px; width: 100%;">Send Message</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>THATVOICE</h4>
+          <p>Equipping young people to speak up, defend rights, and lead positive social change.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programmes.html">Our Programmes</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Location</h4>
+          <p>Kitgum, Northern Uganda</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 THATVOICE. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

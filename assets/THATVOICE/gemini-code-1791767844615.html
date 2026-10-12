@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Involved — THATVOICE</title>
+  <meta name="description" content="Volunteer, become a member, partner with us, or host a youth leadership training with THATVOICE.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">THAT<span>VOICE</span></a>
+      <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programmes.html">Our Programmes</a></li>
+        <li><a href="impact.html">Our Impact</a></li>
+        <li><a href="get-involved.html" class="active">Get Involved</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="news.html">News & Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="get-involved.html" class="nav-cta">Partner With Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1>Get Involved</h1>
+      <p>Add your voice, time, or partnership to our advocacy movement.</p>
+    </div>
+  </div>
+
+  <!-- Forms Section -->
+  <section>
+    <div class="container" style="max-width: 800px;">
+      
+      <div class="section-header" style="text-align: left;">
+        <h2>Volunteer or Join as a Member</h2>
+        <p>Fill out the form below to express your interest in supporting our activities or joining our community.</p>
+      </div>
+
+      <form id="involvementForm" style="background: var(--light-grey); padding: 40px; border-radius: 8px; margin-bottom: 50px;">
+        <div class="form-group">
+          <label for="fullName">Full Name *</label>
+          <input type="text" id="fullName" class="form-control" required placeholder="Enter your full name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" class="form-control" required placeholder="Enter your email address">
+        </div>
+
+        <div class="form-group">
+          <label for="interestType">I am interested in: *</label>
+          <select id="interestType" class="form-control" required>
+            <option value="">-- Select an option --</option>
+            <option value="volunteer">Volunteering</option>
+            <option value="member">Becoming a Member</option>
+            <option value="partner">Partnering With Us</option>
+            <option value="host">Hosting a Training Workshop</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Tell us about yourself or your organisation *</label>
+          <textarea id="message" class="form-control" rows="5" required placeholder="Briefly describe your background or how you would like to participate..."></textarea>
+        </div>
+
+        <div class="form-group" style="display: flex; align-items: center; gap: 10px;">
+          <input type="checkbox" id="consent" required style="width: 18px; height: 18px;">
+          <label for="consent" style="margin-bottom: 0; font-size: 0.9rem;">I agree to allow THATVOICE to store and process my contact details for communication purposes.</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="margin-top: 15px; width: 100%;">Submit Request</button>
+      </form>
+
+      <div style="background: var(--white); border-left: 4px solid var(--teal); padding: 25px; box-shadow: 0 3px 10px rgba(0,0,0,0.05);">
+        <h3 style="color: var(--navy); margin-bottom: 10px;">Other Ways to Support Us</h3>
+        <p style="color: var(--text-muted);">Supporters can also contribute through skills sharing, mentorship, advocacy partnerships, or resource support. Contact us directly to discuss collaboration opportunities.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>THATVOICE</h4>
+          <p>Equipping young people to speak up, defend rights, and lead positive social change.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programmes.html">Our Programmes</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Location</h4>
+          <p>Kitgum, Northern Uganda</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 THATVOICE. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
